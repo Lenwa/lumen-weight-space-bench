@@ -77,4 +77,4 @@ This is a standalone release candidate for `lumen-weight-space-bench`. Read [the
 
 ## Release status
 
-Start with [publication review](docs/PUBLICATION_REVIEW.md), [research context](docs/RESEARCH_CONTEXT.md), [license decision](docs/LICENSE_REVIEW.md) and [agent instructions](AGENTS.md). No public push has been authorized.
+Start with [publication review](docs/PUBLICATION_REVIEW.md), [research context](docs/RESEARCH_CONTEXT.md), [license decision](docs/LICENSE_REVIEW.md) and [agent instructions](AGENTS.md). Public release authorized on 2 November 2026.

@@ -38,8 +38,8 @@
     },
     {
       "path": "docs/PUBLICATION_REVIEW.md",
-      "bytes": 1372,
-      "sha256": "8bab55c27f27f4ea440381bafa8bb2df0a530e11d042b6aad1b1ea215f006664"
+      "bytes": 1369,
+      "sha256": "e7bb8fc69fc4e801a33500a1463e43b1d376abce8dc475a2fd22e7b44ca57cfc"
     },
     {
       "path": "docs/QWEN3_EXPERIMENT.md",
@@ -123,8 +123,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 7733,
-      "sha256": "cb8b4c43f66cd12cf407818d2a44b193d98d5818132ece4efe6276df8d123b37"
+      "bytes": 7743,
+      "sha256": "da95b603a233c75f559f89e03ee15edbf97edab094d026dc55e9e775f7ddf61d"
     },
     {
       "path": "requirements-evaluation.txt",

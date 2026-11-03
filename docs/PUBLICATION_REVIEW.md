@@ -1,6 +1,6 @@
 # Publication review
 
-Status: PREPARED RELEASE CANDIDATE (`lumen-weight-space-bench`). Not yet published.
+Status: PUBLIC RELEASE AUTHORIZED (`lumen-weight-space-bench`), 2 November 2026.
 
 - Separate repository/history: weight-space bench, offline demo, completed Qwen3 experiment reproduction code and handoff documents. Active follow-up work excluded.
 - 30 CPU fixture/demo checks passed after the reproduction update; CLI help passed; see VALIDATION.md. The initial pass had 16 tests.
