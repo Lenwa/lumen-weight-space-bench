@@ -1,0 +1,190 @@
+{
+  "scope": "Exact release candidate files; excludes this manifest itself. No weights or raw runtime outputs.",
+  "files": [
+    {
+      "path": ".gitattributes",
+      "bytes": 71,
+      "sha256": "3b5d08503b5f3eab2c5ea6dc2b8652bd10a06cfa911c760aba1021d436cb3c5c"
+    },
+    {
+      "path": ".github/workflows/cpu-fixtures.yml",
+      "bytes": 871,
+      "sha256": "09b4079195a002f977bdffc9149103d499e53d9b22c05868423484f349e76923"
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 448,
+      "sha256": "45984b482222dea42ad484aed39ccfdca566a8fffc9e0fb43ed9255e4851e784"
+    },
+    {
+      "path": "AGENTS.md",
+      "bytes": 1699,
+      "sha256": "faf50fc3bbbad5c1a26343a99476c8a09f81dbdaf4fb64de27db0bf90853f1f2"
+    },
+    {
+      "path": "docs/DEPENDENCIES.md",
+      "bytes": 1731,
+      "sha256": "a43d2dbef9011f8bf312fd0393cb427ceed564b66e266af83248357d6b1bf8d3"
+    },
+    {
+      "path": "docs/HANDOFF.md",
+      "bytes": 4515,
+      "sha256": "78c3fc1123a021578ea862ed6ff1c121c0c6f9b373aba9bcddf6063bfe4fe22a"
+    },
+    {
+      "path": "docs/LICENSE_REVIEW.md",
+      "bytes": 2016,
+      "sha256": "a26633064d16776a04e067bc45b08fc34418434e36dd69f80c186589cb28b789"
+    },
+    {
+      "path": "docs/PUBLICATION_REVIEW.md",
+      "bytes": 1372,
+      "sha256": "8bab55c27f27f4ea440381bafa8bb2df0a530e11d042b6aad1b1ea215f006664"
+    },
+    {
+      "path": "docs/QWEN3_EXPERIMENT.md",
+      "bytes": 6126,
+      "sha256": "6f45d792eab0d875166df475645b6abc5828ce9b870426437c06d1326af48afa"
+    },
+    {
+      "path": "docs/REPRODUCE.md",
+      "bytes": 4621,
+      "sha256": "415eca92666e96e2d4af01fc13c642aa880031dd4c592de947c456169fea0297"
+    },
+    {
+      "path": "docs/RESEARCH_CONTEXT.md",
+      "bytes": 2423,
+      "sha256": "bc538c292f3e3c958be33ade3d236d8561e2da9dafd48ae080906c490d90da54"
+    },
+    {
+      "path": "docs/SOURCE_MANIFEST.json",
+      "bytes": 6797,
+      "sha256": "e89f6737d15b328d2c450410fcee432499ca96de2e67867a864314002844baa1"
+    },
+    {
+      "path": "docs/VALIDATION.md",
+      "bytes": 3842,
+      "sha256": "929ca362ec5199a73bd45905d39ffde1ff5507406dc2acdfeafeebaa08a76f1a"
+    },
+    {
+      "path": "examples/cases.synthetic.json",
+      "bytes": 263,
+      "sha256": "d64efc7d87d5448540940cb4b9e0380a843782a43ce27046790cf9c24d87f5f6"
+    },
+    {
+      "path": "experiments/qwen3_one_matrix/attention_rearrange.py",
+      "bytes": 4464,
+      "sha256": "86edb166e4d9df9a11f60f683a0269ee84374fc20a48b264a83a967113121aad"
+    },
+    {
+      "path": "experiments/qwen3_one_matrix/completed_result.json",
+      "bytes": 1145,
+      "sha256": "f13703921e00324b603b32f84f3ebf250fc203927c1577da4a46592b4109c067"
+    },
+    {
+      "path": "experiments/qwen3_one_matrix/edit_logic.py",
+      "bytes": 3582,
+      "sha256": "425540aa680b701ef57edea8ceb71bf31af4abe25a5f84d715795e1c136f7b33"
+    },
+    {
+      "path": "experiments/qwen3_one_matrix/fixtures.py",
+      "bytes": 3689,
+      "sha256": "c76b996bb903e30f31f058ca0cc0df296dc5c9f8623d983ff2f14fec25b49955"
+    },
+    {
+      "path": "experiments/qwen3_one_matrix/model_identity.json",
+      "bytes": 1452,
+      "sha256": "61d9a200e58c77fed55758b73ec259a240db479dd7989b7b117321f4d66cbdb6"
+    },
+    {
+      "path": "experiments/qwen3_one_matrix/reproduce.py",
+      "bytes": 15318,
+      "sha256": "2181d8e2fc1967a4ee1d7bd8503ea581267c93de3f2787762fca44d4431b15a3"
+    },
+    {
+      "path": "experiments/qwen3_one_matrix/test_edit.py",
+      "bytes": 3730,
+      "sha256": "94dc7a98efb5158e1a63392e8abf363f92c79bafa265b23e8a4bf248e43a221b"
+    },
+    {
+      "path": "experiments/qwen3_one_matrix/test_portable.py",
+      "bytes": 3368,
+      "sha256": "0b49eef7f5bd50f77063f334642ef9858b1dcb3c13c62c944f65a99833d51a47"
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 1075,
+      "sha256": "be247bad42b35a9ad4bc32ceeb57d0f0d1bae031889541aeea0f5cb4f7d42e16"
+    },
+    {
+      "path": "NOTICE",
+      "bytes": 1038,
+      "sha256": "2e71a1459c272dcbd1eb2d99fc34122980bf0681d147ce5ebb075e9d05125225"
+    },
+    {
+      "path": "README.md",
+      "bytes": 7733,
+      "sha256": "cb8b4c43f66cd12cf407818d2a44b193d98d5818132ece4efe6276df8d123b37"
+    },
+    {
+      "path": "requirements-evaluation.txt",
+      "bytes": 147,
+      "sha256": "637946c27514dbcecd7a4d5ec2d14c36a0484afbb42a28981baedf6ece7d9c71"
+    },
+    {
+      "path": "requirements-qwen3.txt",
+      "bytes": 227,
+      "sha256": "c3f73b07d8406e0a523eab19b32f6c46617b0239ce824e7fbfd15d178f52c00f"
+    },
+    {
+      "path": "requirements.txt",
+      "bytes": 152,
+      "sha256": "45431bf540d7ac9822ac1659bd8e16b820da02c5ab9fc6345d7340dbad4444d7"
+    },
+    {
+      "path": "tools/weight-space/checkpoint.py",
+      "bytes": 9909,
+      "sha256": "6f1a86f615bf560b44fe68261773f2a9ec99ed303f7bd92903c07b575a5138cd"
+    },
+    {
+      "path": "tools/weight-space/evaluate.py",
+      "bytes": 7483,
+      "sha256": "c4985cd6030a6fc88c7984f6c75a49a07143a5b3236105fea9f01dbcd7ed1ac1"
+    },
+    {
+      "path": "tools/weight-space/quickstart.py",
+      "bytes": 3069,
+      "sha256": "a7e9d922dea7e4aee4e3bb254a5b9df816e3a4d71d7d69dbd2a35df6b1678038"
+    },
+    {
+      "path": "tools/weight-space/README.md",
+      "bytes": 510,
+      "sha256": "079cc6af5db2a53efa55fc67833bf338755fceb32f47e4b029372e121067174c"
+    },
+    {
+      "path": "tools/weight-space/test_bench.py",
+      "bytes": 9455,
+      "sha256": "0bf65ab1cee8d17fc5111a35bbecc3c85ae9bf3565168fd6254f1b5a85833734"
+    },
+    {
+      "path": "tools/weight-space/test_reproduction.py",
+      "bytes": 835,
+      "sha256": "dfb9031d117d59bc59df6e159886f0e6465c97545fe3c787e48d2e299f5a6af0"
+    },
+    {
+      "path": "tools/weight-space/vendor/apply_edit.py",
+      "bytes": 3005,
+      "sha256": "d2b627a6cf344f309cca4bcab4ff6ccc6ad1c8f29cabda78d11f99c19d1b1c5d"
+    },
+    {
+      "path": "tools/weight-space/vendor/LICENSE",
+      "bytes": 1819,
+      "sha256": "395f7febedfda6b5498ca36cfe3344d3986659ce4385dd8b03d2d75604250a8e"
+    },
+    {
+      "path": "tools/weight-space/vendor/st_numpy.py",
+      "bytes": 2230,
+      "sha256": "3c4e532fb8edf374e1a4636aa806a04d062f824943eaf4bca0d3af5b0e7dca40"
+    }
+  ]
+}

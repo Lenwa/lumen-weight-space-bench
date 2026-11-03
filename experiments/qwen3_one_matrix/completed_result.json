@@ -1,0 +1,42 @@
+{
+  "complete": true,
+  "noop_exact": true,
+  "rollback_exact": true,
+  "scores": {
+    "original": {
+      "discovery": 1,
+      "heldout": 1,
+      "retention": 4
+    },
+    "noop": {
+      "discovery": 1,
+      "heldout": 1,
+      "retention": 4
+    },
+    "edited": {
+      "discovery": 2,
+      "heldout": 0,
+      "retention": 3
+    },
+    "rollback": {
+      "discovery": 1,
+      "heldout": 1,
+      "retention": 4
+    }
+  },
+  "retention_preserved": false,
+  "improvement_gate": false,
+  "capture_forwards": 4,
+  "free_calls": 72,
+  "model": "Qwen/Qwen3-8B",
+  "revision": "b968826d9c46dd6066d109eabc6255188de91218",
+  "target": "model.layers.35.mlp.down_proj.weight",
+  "date": "2026-11-02",
+  "kind": "historical aggregate; not a new reproduction",
+  "source_records": {
+    "protocol.json": "2bdb244dc72648828777126d3ba7d2f0831292ba0697aefd1466dbd1a694257f",
+    "result.json": "3e883af6c6cc8ff84f1c5d6f28d1eea5db90d228173bf1a80c2bb94305b543da",
+    "verification.json": "8c5d81343e58b87ca42b608c07b42247c053ff8b9c31c189bcef99a398e99944",
+    "gradient.json": "1bb5376f734b1dc3441b80aa5efdf3fd82c50f4567eecc4e5c05ae87a7e74981"
+  }
+}

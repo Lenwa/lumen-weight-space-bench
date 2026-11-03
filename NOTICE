@@ -1,0 +1,19 @@
+Lumen weight-space bench
+
+Original wrapper, proposal writer, matched text evaluation and handoff documentation:
+Lumen contributors. Prepared with AI assistance. MIT license; see LICENSE.
+
+Unmodified third-party scripts:
+  tools/weight-space/vendor/apply_edit.py
+  tools/weight-space/vendor/st_numpy.py
+Source: https://github.com/RikiyaT/lm_understand-logs
+Revision: 4d09ba6d6a7e891dd8063974dfe81b3d78e3494f
+Original paths: exp8_math/code/apply_edit.py, exp8_math/code/st_numpy.py
+Copyright (c) 2026 the authors of "LLMs can understand and write neural network weights"
+These scripts are MIT-licensed. Their complete original multi-license notice
+is retained at tools/weight-space/vendor/LICENSE. This project does not relicense
+upstream data, networks, MinAtar code or third-party benchmark content.
+
+Research inspiration: https://rikiyat.github.io/blog/weight-space-programming/
+The unpublished editor harness/forward-pass server are not included or recreated.
+No upstream research benchmark or model-improvement result is claimed here.

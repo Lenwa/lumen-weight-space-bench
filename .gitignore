@@ -1,0 +1,41 @@
+# Python environments and caches
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.cache/
+
+# Models, edit payloads, data, and generated inference output
+models/
+checkpoints/
+data/
+datasets/
+outputs/
+results/
+artifacts/
+runtime/
+*.partial/
+*.safetensors
+*.bin
+*.pt
+*.pth
+*.ckpt
+*.gguf
+*.npz
+*.npy
+*.jsonl
+
+# Credentials and machine-local settings
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+credentials*.json
+secrets*.json
+.aws/
+.ssh/
+*.log

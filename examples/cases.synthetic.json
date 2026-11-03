@@ -1,0 +1,14 @@
+[
+  {
+    "id": "synthetic-heldout-1",
+    "split": "heldout",
+    "prompt": "Return only the digit one.",
+    "answer": "1"
+  },
+  {
+    "id": "synthetic-retention-1",
+    "split": "retention",
+    "prompt": "Return only the digit two.",
+    "answer": "2"
+  }
+]

@@ -1,0 +1,4 @@
+# Checkpoint inspection, proposal generation, and candidate construction.
+# Unpinned direct dependencies; not a reproducibility lock.
+numpy
+safetensors

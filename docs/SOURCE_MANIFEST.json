@@ -1,0 +1,125 @@
+{
+  "schema": "lumen-public-source-manifest-1",
+  "prepared_date": "2026-11-02",
+  "scope": "Reusable bench plus offline demo and portable completed Qwen3 final-matrix experiment; excludes active follow-up, raw private logs and weights.",
+  "source_root": "original project checkout (local absolute path intentionally omitted)",
+  "upstream": {
+    "repository": "https://github.com/RikiyaT/lm_understand-logs",
+    "revision": "4d09ba6d6a7e891dd8063974dfe81b3d78e3494f",
+    "files": {
+      "tools/weight-space/vendor/apply_edit.py": "exp8_math/code/apply_edit.py",
+      "tools/weight-space/vendor/st_numpy.py": "exp8_math/code/st_numpy.py",
+      "tools/weight-space/vendor/LICENSE": "LICENSE"
+    },
+    "verification": "Declared provenance from retained local source README and compatibility audit; no network fetch during packaging."
+  },
+  "copied_sources": [
+    {
+      "source_path": "tools/weight-space/checkpoint.py",
+      "destination_path": "tools/weight-space/checkpoint.py",
+      "source_sha256": "6f1a86f615bf560b44fe68261773f2a9ec99ed303f7bd92903c07b575a5138cd",
+      "destination_sha256": "6f1a86f615bf560b44fe68261773f2a9ec99ed303f7bd92903c07b575a5138cd",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "source_path": "tools/weight-space/evaluate.py",
+      "destination_path": "tools/weight-space/evaluate.py",
+      "source_sha256": "c4985cd6030a6fc88c7984f6c75a49a07143a5b3236105fea9f01dbcd7ed1ac1",
+      "destination_sha256": "c4985cd6030a6fc88c7984f6c75a49a07143a5b3236105fea9f01dbcd7ed1ac1",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "source_path": "tools/weight-space/test_bench.py",
+      "destination_path": "tools/weight-space/test_bench.py",
+      "source_sha256": "0bf65ab1cee8d17fc5111a35bbecc3c85ae9bf3565168fd6254f1b5a85833734",
+      "destination_sha256": "0bf65ab1cee8d17fc5111a35bbecc3c85ae9bf3565168fd6254f1b5a85833734",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "source_path": "tools/weight-space/vendor/apply_edit.py",
+      "destination_path": "tools/weight-space/vendor/apply_edit.py",
+      "source_sha256": "d2b627a6cf344f309cca4bcab4ff6ccc6ad1c8f29cabda78d11f99c19d1b1c5d",
+      "destination_sha256": "d2b627a6cf344f309cca4bcab4ff6ccc6ad1c8f29cabda78d11f99c19d1b1c5d",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "source_path": "tools/weight-space/vendor/st_numpy.py",
+      "destination_path": "tools/weight-space/vendor/st_numpy.py",
+      "source_sha256": "3c4e532fb8edf374e1a4636aa806a04d062f824943eaf4bca0d3af5b0e7dca40",
+      "destination_sha256": "3c4e532fb8edf374e1a4636aa806a04d062f824943eaf4bca0d3af5b0e7dca40",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "source_path": "tools/weight-space/vendor/LICENSE",
+      "destination_path": "tools/weight-space/vendor/LICENSE",
+      "source_sha256": "395f7febedfda6b5498ca36cfe3344d3986659ce4385dd8b03d2d75604250a8e",
+      "destination_sha256": "395f7febedfda6b5498ca36cfe3344d3986659ce4385dd8b03d2d75604250a8e",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "source_path": "tools/weight-space/README.md",
+      "destination_path": "tools/weight-space/README.md",
+      "source_sha256": "2fbffe8dad9ebc5d255e7ec51f23ffdd08ae9217383ab1238b4f271ae9b17c38",
+      "destination_sha256": "079cc6af5db2a53efa55fc67833bf338755fceb32f47e4b029372e121067174c",
+      "transformation": "Replaced private project context with neutral standalone README linking root documentation."
+    },
+    {
+      "source_path": "completed-qwen3-experiment/edit_logic.py",
+      "destination_path": "experiments/qwen3_one_matrix/edit_logic.py",
+      "source_sha256": "425540aa680b701ef57edea8ceb71bf31af4abe25a5f84d715795e1c136f7b33",
+      "destination_sha256": "425540aa680b701ef57edea8ceb71bf31af4abe25a5f84d715795e1c136f7b33",
+      "transformation": "byte-for-byte copy; historical synthetic method, no runtime data"
+    },
+    {
+      "source_path": "completed-qwen3-experiment/fixtures.py",
+      "destination_path": "experiments/qwen3_one_matrix/fixtures.py",
+      "source_sha256": "c76b996bb903e30f31f058ca0cc0df296dc5c9f8623d983ff2f14fec25b49955",
+      "destination_sha256": "c76b996bb903e30f31f058ca0cc0df296dc5c9f8623d983ff2f14fec25b49955",
+      "transformation": "byte-for-byte copy; historical synthetic method, no runtime data"
+    },
+    {
+      "source_path": "completed-qwen3-experiment/test_edit.py",
+      "destination_path": "experiments/qwen3_one_matrix/test_edit.py",
+      "source_sha256": "d2e7bc079d2bb8b6bec30a9e69bd983b016377ea140ae14c7529e8ee7195e7a1",
+      "destination_sha256": "94dc7a98efb5158e1a63392e8abf363f92c79bafa265b23e8a4bf248e43a221b",
+      "transformation": "Synthetic malformed-output suffix anonymized; test behavior unchanged."
+    },
+    {
+      "source_path": "completed-qwen3-experiment/attention_rearrange.py",
+      "destination_path": "experiments/qwen3_one_matrix/attention_rearrange.py",
+      "source_sha256": "463be71d4e0860fceec0c750e428650e80578f0ac3c4ab79a7931ddea26a1ccb",
+      "destination_sha256": "86edb166e4d9df9a11f60f683a0269ee84374fc20a48b264a83a967113121aad",
+      "transformation": "Preserved adapter and numerical validator; omitted private standalone CLI importing telemetry/ownership."
+    }
+  ],
+  "new_files": [
+    "README.md",
+    "AGENTS.md",
+    ".gitignore",
+    ".gitattributes",
+    "requirements.txt",
+    "requirements-evaluation.txt",
+    "examples/cases.synthetic.json",
+    "docs/DEPENDENCIES.md",
+    "docs/HANDOFF.md",
+    "docs/VALIDATION.md",
+    "docs/SOURCE_MANIFEST.json"
+  ],
+  "new_file_note": "Root licensing documents and research context are maintained separately; generated files are not claimed as copied upstream material.",
+  "omissions": [
+    "All __pycache__ files",
+    "Private result and compatibility-audit output directories",
+    "Original README personal attribution, private model names, private result links and machine-specific runtime path",
+    "Historical check_replay.py is omitted; its five scenarios are mapped in HANDOFF.md.",
+    "Upstream build_ckpt/evaluate/profiles and the unpublished editor harness are not runtime dependencies and were not copied."
+  ],
+  "adaptations": [
+    {
+      "path": "experiments/qwen3_one_matrix/reproduce.py",
+      "basis": "Completed experiment run.py",
+      "source_sha256": "98f10f18e0014d214d50631914c24b81d74ca5cfe44c3ee359ca38de54afb9ac",
+      "changes": "Explicit paths, one-shot portable execution, retained matched gradient/control method; no private backend/services/resident supervisor. CPU-only port checks; GPU port unexecuted."
+    }
+  ],
+  "release_preparation": "Standalone release with fresh Git history; internal narrative and planning notes excluded. Original source hashes and scientific results retained."
+}

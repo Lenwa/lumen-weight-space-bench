@@ -1,0 +1,7 @@
+# Evaluation and the complete test suite additionally need these packages.
+-r requirements.txt
+torch
+transformers==4.57.6
+tokenizers
+jinja2
+psutil
